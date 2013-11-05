@@ -6,7 +6,7 @@ import os
 os.system("clear")
 
 # API-KEY
-resrobot = "c3fbe29843a7aeea0bc75a6d7591fcb0"
+resrobot = ""
 
 def process_mention(status, settings):
     print status.user.screen_name,':', status.text.encode('utf-8')
