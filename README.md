@@ -1,11 +1,15 @@
 kollektiven-twitter
 ===================
-To get started, install all modules required. 
+Installation
 
-Read linked README below to get started, when done. Create a Twitter app, genereate accesstokens and fill your "credentials.sh" 
-with those keys. Open "extensions/hello.py" fill in an API-key from this API:
-GET API-KEY: http://www.trafiklab.se/api/resrobot-sok-resa
-README: https://github.com/hiway/spritzbot/blob/master/README.md
+1. Klona denna repo
+2. 'cd' in till "kollektiven-twitter"
+3. <code>> virtualenv --distribute --no-site-packages venv
+4. <code>> venv/Scripts/activate</code>
+5. <code>> (venv)$ pip install -r requirements.txt</code>
+6. Ändra filen <code>credentials.sh</code> och ange korrekta värden från [dev.twitter.com](https://dev.twitter.com/)
+7. <code>> source credentials.sh</code>
+8. <code>> python spritzbot.py</code>
 
 TODO
 ===================
